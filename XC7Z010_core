@@ -1,0 +1,7 @@
+ZYNQ7010核心板
+四层板，尺寸40mm*50mm，Allegro绘制，内层无盘工艺，线宽线距4mil/4mil。
+gerber_7010_V1：PUDC_B=0,配置过程IO为高电平，默认启动模式JTAG。
+gerber_7010_V2：PUDC_B=1,配置过程IO为低电平，默认启动模式QSPI。
+调试BUG：在打开Vivado下载界面时，JTAG会不断扫描，导致flash加载失败，断开JTAG即可正常启动。
+V1版本测试EYE WIDTH:78.12% 71.88% 75.00% 75.00%
+注意：V1已打板测试，V2修改后未测试。
