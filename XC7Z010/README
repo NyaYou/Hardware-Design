@@ -5,3 +5,4 @@ gerber_7010_V2：PUDC_B=1,配置过程IO为低电平，默认启动模式QSPI。
 调试BUG：在打开Vivado下载界面时，JTAG会不断扫描，导致flash加载失败，断开JTAG即可正常启动。
 V1版本测试EYE WIDTH:78.12% 71.88% 75.00% 75.00%
 注意：V1已打板测试，V2修改后未测试。
+两个60P的BTB和EP4CE6F17C8N尺寸兼容
